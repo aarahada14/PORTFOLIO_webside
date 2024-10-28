@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.ri-arrow-right-circle-fill{
+    color: #f8a90f;
+    font-size: 36px;
+}
+.ri-focus-2-fill{
+    color: #f8a90f;
+}
