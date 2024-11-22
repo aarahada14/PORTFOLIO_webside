@@ -24,3 +24,24 @@
     font-size: 40px;
    
 }
+.v-shadow{
+    box-shadow: rgba(0, 0, 0, 0.747) 0px 0px 9px 9px;
+}
+.img-up{
+    scale: 1;
+    transition: all .2s ;
+ }
+.img-up:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.897) 0px 0px 10px 10px    
+    
+ }
+ .img2-up{
+    scale: 1;
+    transition: all .2s ;
+ }
+.img2-up:hover{
+    transform: scale(1.1);
+    box-shadow:rgba(230, 169, 3, 0.89) 0px 0px 9px 9px
+    
+ }
