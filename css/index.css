@@ -45,3 +45,18 @@
     box-shadow:rgba(230, 169, 3, 0.89) 0px 0px 9px 9px
     
  }
+ .swipe{
+    padding: 10px;
+
+}
+
+.swipe-sub{
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+
+.slick-dots li button:before{
+    font-size: 30px !important;
+}
