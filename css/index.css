@@ -25,6 +25,10 @@
     font-size: 40px;
    
 }
+.ri-message-2-fill{
+    font-size: 25px;
+    color: white;
+}
 .v-shadow{
     box-shadow: rgba(0, 0, 0, 0.747) 0px 0px 9px 9px;
 }
@@ -60,4 +64,9 @@
 
 .slick-dots li button:before{
     font-size: 30px !important;
+}
+
+.b-h{
+    height: 40px;
+    width: 40px;
 }
