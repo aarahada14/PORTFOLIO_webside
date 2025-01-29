@@ -4,6 +4,96 @@
     padding: 0;
 
 }
+
+
+.text {
+    width: 15ch;
+    border-right: 2px solid #f8a90f;
+    animation: blink 1s step-end infinite, type 3.5s steps(15) forwards;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+
+  }
+.c-1::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border:  3px solid black;
+    background-color: white;
+}
+.c-1{
+    position: relative;
+    animation: roated 10s linear infinite;
+}
+
+@keyframes roated {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+  
+.c-2::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border:  3px solid black;
+    background-color: white;
+}
+.c-2{
+    position: relative;
+    animation: roated 5s linear infinite reverse;
+}
+
+@keyframes roated {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+} 
+
+.c-3{
+    position: relative;
+    animation: roated 10s linear infinite ;
+}
+
+@keyframes roated {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+
+
 .ri-arrow-right-circle-fill{
     color: #f8a90f;
     font-size: 36px;
