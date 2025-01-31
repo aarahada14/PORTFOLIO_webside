@@ -7,9 +7,9 @@
 
 
 .text {
-    width: 15ch;
+    width: 16ch;
     border-right: 2px solid #f8a90f;
-    animation: blink 1s step-end infinite, type 3.5s steps(15) forwards;
+    animation: blink 1s step-end infinite, type 3.5s steps(16) forwards infinite;
     overflow: hidden;
     white-space: nowrap;
   }
@@ -26,6 +26,8 @@
     }
 
   }
+
+
 .c-1::before{
     content: "";
     position: absolute;
@@ -33,14 +35,14 @@
     top: 0%;
     transform: translateY(-50%);
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    border:  3px solid black;
+    height: 23px;
+    width: 23px;
+    border:  2px solid black;
     background-color: white;
 }
 .c-1{
     position: relative;
-    animation: roated 10s linear infinite;
+    animation: roated 20s linear infinite;
 }
 
 @keyframes roated {
@@ -59,14 +61,14 @@
     top: 0%;
     transform: translateY(-50%);
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    border:  3px solid black;
+    height: 23px;
+    width: 23px;
+    border:  2px solid black;
     background-color: white;
 }
 .c-2{
     position: relative;
-    animation: roated 5s linear infinite reverse;
+    animation: roated 10s linear infinite reverse;
 }
 
 @keyframes roated {
@@ -80,7 +82,7 @@
 
 .c-3{
     position: relative;
-    animation: roated 10s linear infinite ;
+    animation: roated 20s linear infinite ;
 }
 
 @keyframes roated {
@@ -91,6 +93,7 @@
         rotate: 360deg;
     }
 }
+
 
 
 
@@ -140,26 +143,49 @@
     box-shadow:rgba(230, 169, 3, 0.89) 0px 0px 9px 9px
     
  }
- .swipe{
-    padding: 10px;
-
-}
-
-.swipe-sub{
-    background-color: white;
-    box-shadow: 1px 1px 5px black;
-    border-radius: 10px;
-}
+ 
 
 
 .slick-dots li button:before{
-    font-size: 30px !important;
+    font-size: 40px !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #f8a603 !important;
+    font-size: 70px !important;
 }
 
 .b-h{
     height: 40px;
     width: 40px;
 }
+
+
+
+.swipe{
+    padding: 10px;
+}
+.swipe-sub{
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.footer{
+    position: relative;
+}
+.f-position{
+    position: absolute;
+    top: -50px;
+}
+.f-box{
+    color: black;
+}
+.f-box:hover{
+    background-color:rgba(245, 182, 10, 0.89);
+    color:white !important;
+    border: 2px solid rgb(236, 155, 5) !important;
+    border-radius: 6px !important;
+}
+
+
 
 
 
