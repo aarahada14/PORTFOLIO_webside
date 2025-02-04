@@ -4,11 +4,13 @@
     padding: 0;
 
 }
-
+:root{
+    --yellow-:#f8a90f;
+}
 
 .text {
     width: 16ch;
-    border-right: 2px solid #f8a90f;
+    border-right: 2px solid var(--yellow-);
     animation: blink 1s step-end infinite, type 3.5s steps(16) forwards infinite;
     overflow: hidden;
     white-space: nowrap;
@@ -98,15 +100,15 @@
 
 
 .ri-arrow-right-circle-fill{
-    color: #f8a90f;
+    color: var(--yellow-);
     font-size: 36px;
 }
 
 .ri-focus-2-fill{
-    color: #f8a90f;
+    color: var(--yellow-);
 }
 .icon{
-   background-color: #f8a90f;
+   background-color: var(--yellow-);
    width: 15%; 
    height: 30%;
    display: inline-flex;
@@ -150,7 +152,7 @@
     font-size: 40px !important;
 }
 .slick-dots li.slick-active button:before{
-    color: #f8a603 !important;
+    color:var(--yellow-) !important;
     font-size: 70px !important;
 }
 
