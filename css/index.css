@@ -97,7 +97,9 @@
 }
 
 
-
+.f-icon{
+    font-size: 60px;
+}
 
 .ri-arrow-right-circle-fill{
     color: var(--yellow-);
