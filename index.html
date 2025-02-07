@@ -544,7 +544,7 @@
         <div class="container-fluid f-position">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <div style="height: 100px; width: 100px;" class="col-1 border border-3 bg-white p-2 rounded-circle d-flex justify-content-center align-items-center">
+                    <div style="height: 100px; width: 100px;" class="bg-footer col-1 border border-3 bg-white p-2 rounded-circle d-flex justify-content-center align-items-center">
                           <img style="width: 100%;" class="rounded-circle" src="img/IMG_20241115_104225_898.jpg" alt="">   
                     </div>
                 </div>
@@ -604,6 +604,8 @@
         $(".navbar").toggleClass("navbar-dark bg-black")
         $(".f-icon").toggleClass("b-icon")
         $(".form-bg").toggleClass("bg-black text-white")
+        $(".bg-footer").toggleClass("bg")
+        $(".slick-dots li button:before").toggleClass("btn-slider")
 
     })
 </script>  
