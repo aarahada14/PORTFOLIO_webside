@@ -146,6 +146,14 @@
     font-size: 25px;
     color: white;
 }
+.ri-map-pin-fill{
+    font-size: 25px;
+    color: white;
+}
+.ri-phone-fill{
+    font-size: 25px;
+    color: white;
+}
 .v-shadow{
     box-shadow: rgba(0, 0, 0, 0.747) 0px 0px 9px 9px;
 }
@@ -188,6 +196,7 @@
     height: 40px;
     width: 40px;
 }
+
 
 
 
