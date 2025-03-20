@@ -181,6 +181,7 @@
 
 .slick-dots li button:before{
     font-size: 40px !important;
+    
 }
 .slick-dots li.slick-active button:before{
     color:var(--yellow-) !important;
